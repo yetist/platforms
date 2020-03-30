@@ -66,6 +66,11 @@ constraint_value(
 )
 
 constraint_value(
+    name = "sw_64",
+    constraint_setting = ":cpu",
+)
+
+constraint_value(
     name = "x86_32",
     constraint_setting = ":cpu",
 )
